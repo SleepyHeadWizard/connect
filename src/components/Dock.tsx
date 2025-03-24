@@ -9,8 +9,8 @@ const Dock = () => {
     { path: '/', icon: FaHome, label: 'Home' },
     { path: '/research', icon: FaChartBar, label: 'Research' },
     { path: '/chat', icon: FaComments, label: 'Chat' },
-    { path: '/resources', icon: FaBookOpen, label: 'Resources' },
     { path: '/quiz', icon: FaClipboardList, label: 'Quiz' },
+    { path: '/resources', icon: FaBookOpen, label: 'Resources' },
   ];
 
   return (
