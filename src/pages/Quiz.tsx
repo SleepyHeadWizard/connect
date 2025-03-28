@@ -1,12 +1,12 @@
 import { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { quizQuestions, getQuizResults } from '../data/quizData';
-import { FaChartLine, FaLightbulb, FaCheckCircle, FaChevronRight, FaArrowLeft } from 'react-icons/fa';
+import { FaChartLine, FaLightbulb, FaCheckCircle } from 'react-icons/fa';
 
-interface Answer {
-  questionId: number;
-  value: number;
-}
+// interface Answer {
+//   questionId: number;
+//   value: number;
+// }
 
 const Quiz = () => {
   const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -34,11 +34,11 @@ const Quiz = () => {
     setQuizResults(null);
   };
 
-  const getScoreColor = (percentage: number) => {
-    if (percentage < 30) return 'text-green-500';
-    if (percentage < 60) return 'text-yellow-500';
-    return 'text-red-500';
-  };
+  // const getScoreColor = (percentage: number) => {
+  //   if (percentage < 30) return 'text-green-500';
+  //   if (percentage < 60) return 'text-yellow-500';
+  //   return 'text-red-500';
+  // };
 
   return (
     <div className="min-h-screen w-full bg-gradient-to-br from-slate-50 to-slate-100 dark:from-slate-900 dark:to-slate-800 text-slate-900 dark:text-white overflow-x-hidden pb-24">

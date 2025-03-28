@@ -18,7 +18,7 @@ interface ChatMessage {
 }
 
 class GeminiService {
-  private chat;
+  public chat: any;
   private history: ChatMessage[] = [];
 
   constructor() {

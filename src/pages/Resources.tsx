@@ -1,7 +1,7 @@
 import { useState, useMemo } from 'react';
 import { motion } from 'framer-motion';
 import { resources, categories, resourceTypes } from '../data/resourcesData';
-import type { Resource, ResourceType, ResourceFilters, CategoryType } from '../types/resources';
+import type {ResourceType, ResourceFilters, CategoryType } from '../types/resources';
 
 const Resources = () => {
   const [selectedCategory, setSelectedCategory] = useState<CategoryType>('all');
