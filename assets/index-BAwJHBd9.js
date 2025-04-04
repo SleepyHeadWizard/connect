@@ -323,7 +323,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- */class Voe{constructor(t){this.apiKey=t}getGenerativeModel(t){if(!t.model)throw new Al("Must provide a model name. Example: genai.getGenerativeModel({ model: 'my-model-name' })");return new zoe(this.apiKey,t)}}const Uoe=new Voe(.env/pi_key),fp=Uoe.getGenerativeModel({model:"gemini-1.5-flash",generationConfig:{temperature:.7,maxOutputTokens:1024}});class Woe{constructor(){Yd(this,"chat");Yd(this,"history",[]);this.chat=fp.startChat()}async sendMessage(t){try{const n=`You are a Digital Wellbeing Assistant focused exclusively on helping users improve their relationship with technology and maintain digital wellness. Your expertise includes:
+ */class Voe{constructor(t){this.apiKey=t}getGenerativeModel(t){if(!t.model)throw new Al("Must provide a model name. Example: genai.getGenerativeModel({ model: 'my-model-name' })");return new zoe(this.apiKey,t)}}const Uoe=new Voe(.env/api_key),fp=Uoe.getGenerativeModel({model:"gemini-1.5-flash",generationConfig:{temperature:.7,maxOutputTokens:1024}});class Woe{constructor(){Yd(this,"chat");Yd(this,"history",[]);this.chat=fp.startChat()}async sendMessage(t){try{const n=`You are a Digital Wellbeing Assistant focused exclusively on helping users improve their relationship with technology and maintain digital wellness. Your expertise includes:
 
 1. Digital habits and screen time management
 2. Social media usage and its impact on mental health
