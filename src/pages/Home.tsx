@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { FaChartBar, FaComments, FaBookOpen, FaLightbulb, FaUsers, FaUniversity, FaProjectDiagram, FaGraduationCap, FaUserTie } from 'react-icons/fa'; // Added more icons
+import { FaChartBar, FaComments, FaBookOpen, FaLightbulb, FaUsers, FaUniversity, FaProjectDiagram, FaUserTie } from 'react-icons/fa'; // Added more icons
 
 // == YOU NEED TO FILL THESE IN FROM YOUR REPORT ===
 const YOUR_NAME = "Om Jaiswal, Anubhav Singh, Shiwaditya Chandra Mukesh, Ashish Kumar Singh & Harsh Rawat";
