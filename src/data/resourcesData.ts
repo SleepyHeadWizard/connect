@@ -7,7 +7,7 @@ export const resources: Resource[] = [
     description: 'A comprehensive study examining the relationship between social media use and mental health outcomes.',
     type: 'article',
     category: 'research',
-    url: 'https://example.com/article1',
+    url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC7785056/',
     tags: ['research', 'mental health', 'social media'],
     author: 'Dr. Sarah Johnson',
     publisher: 'Journal of Digital Psychology',
@@ -19,7 +19,7 @@ export const resources: Resource[] = [
     description: 'An app that helps you track and manage your social media usage with personalized insights.',
     type: 'app',
     category: 'tools',
-    url: 'https://example.com/app1',
+    url: 'https://play.google.com/store/apps/details?id=com.google.android.apps.wellbeing&pcampaignid=web_share',
     tags: ['app', 'digital wellbeing', 'tracking'],
     rating: 4.8
   },
@@ -29,7 +29,7 @@ export const resources: Resource[] = [
     description: 'A practical guide to developing healthy social media habits and maintaining digital wellbeing.',
     type: 'book',
     category: 'self-help',
-    url: 'https://example.com/book1',
+    url: 'https://amzn.asia/d/7nGmNkf',
     tags: ['book', 'self-help', 'digital wellness'],
     author: 'Michael Chen',
     publisher: 'Digital Wellness Press',
@@ -41,7 +41,7 @@ export const resources: Resource[] = [
     description: 'A leading organization providing resources and support for mental health in the digital age.',
     type: 'organization',
     category: 'support',
-    url: 'https://example.com/org1',
+    url: 'https://www.thelivelovelaughfoundation.org/',
     tags: ['organization', 'mental health', 'support']
   },
   {
@@ -50,7 +50,7 @@ export const resources: Resource[] = [
     description: 'A step-by-step guide to reducing social media dependency and improving mental health.',
     type: 'article',
     category: 'self-help',
-    url: 'https://example.com/article2',
+    url: 'https://joyfulstateofmind.com/summer-social-media-detox-challenge/',
     tags: ['article', 'detox', 'challenge'],
     author: 'Emma Davis',
     publisher: 'Wellness Today',
@@ -62,7 +62,7 @@ export const resources: Resource[] = [
     description: 'An app that helps you set and maintain healthy screen time limits across all your devices.',
     type: 'app',
     category: 'tools',
-    url: 'https://example.com/app2',
+    url: 'https://play.google.com/store/apps/details?id=com.appbuck3t.screentime&pcampaignid=web_share',
     tags: ['app', 'screen time', 'management'],
     rating: 4.5
   },
@@ -72,7 +72,7 @@ export const resources: Resource[] = [
     description: 'A research and education organization focused on promoting healthy technology use.',
     type: 'organization',
     category: 'research',
-    url: 'https://example.com/org2',
+    url: 'https://www.digitalwellnessinstitute.com/',
     tags: ['organization', 'research', 'education']
   },
   {
@@ -81,7 +81,7 @@ export const resources: Resource[] = [
     description: 'An academic exploration of how social media affects our psychology and behavior.',
     type: 'book',
     category: 'research',
-    url: 'https://example.com/book2',
+    url: 'https://amzn.in/d/2zwg2yV',
     tags: ['book', 'psychology', 'research'],
     author: 'Dr. Robert Wilson',
     publisher: 'Academic Press',
