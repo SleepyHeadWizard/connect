@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { quizQuestions, getQuizResults } from '../data/quizData'; // Ensure these are correctly defined
 import { FaChartLine, FaLightbulb, FaCheckCircle, FaRedoAlt, FaBrain, FaBalanceScale } from 'react-icons/fa'; // Added more icons

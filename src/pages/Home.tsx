@@ -79,7 +79,7 @@ const Home = () => {
               <FaProjectDiagram className="mr-3 text-purple-500" /> About Our Research
             </h2>
             <p className="text-slate-600 dark:text-slate-300 text-base sm:text-lg leading-relaxed">
-              In an age dominated by digital interaction, understanding the nuances of social media's impact on mental health is more critical than ever. This project, undertaken as part of the {PROGRAMME_NAME} at Lovely Professional University, delves into this complex issue.
+              In an age dominated by digital interaction, understanding the nuances of social media's impact on mental health is more critical than ever. This project, undertaken as part of the {PROGRAMME_NAME} at Lovely Professional University.
               Our primary goal is to investigate usage patterns, identify potential risk factors, and explore protective measures related to social media and psychological wellbeing. Through quantitative surveys and qualitative analysis, we aim to provide a clearer picture of this relationship and offer actionable insights.
             </p>
             <Link to="/research" className="mt-6 inline-block text-indigo-600 dark:text-indigo-400 font-semibold hover:underline">
