@@ -3,10 +3,10 @@ import { motion } from 'framer-motion';
 import { FaChartBar, FaComments, FaBookOpen, FaLightbulb, FaUsers, FaUniversity, FaProjectDiagram, FaUserTie } from 'react-icons/fa'; // Added more icons
 
 // == YOU NEED TO FILL THESE IN FROM YOUR REPORT ===
-const YOUR_NAME = "Om Jaiswal, Anubhav Singh, Shiwaditya Chandra Mukesh, Ashish Kumar Singh & Harsh Rawat";
-const SUPERVISOR_NAME = "Ms, Ranjit Kaur";
-const SUPERVISOR_DESIGNATION = "Assistant Professor, School of Computer Application";
-const PROGRAMME_NAME = "Bachelor of Computer Application"; 
+const YOUR_NAME = "Om Jaiswal, Akash Verma & Kunal Mishra";
+//const SUPERVISOR_NAME = "Ms, Ranjit Kaur";
+//const SUPERVISOR_DESIGNATION = "Assistant Professor, School of Computer Application";
+const PROGRAMME_NAME = "Master of Computer Applications"; 
 const RESEARCH_TITLE = "Al-Driven Predictive Analysis of Social Media's Impact on Youth Mental Health with Chatbot Integration";
 // =================================================
 
