@@ -9,6 +9,10 @@ import react from '@vitejs/plugin-react'
 //     open: true
 //   }
 // })
+export default defineConfig({
+  plugins: [react()],
+  base: '/connect/', // Replace with your actual repository name
+})
 
 // https://vitejs.dev/config/
 export default defineConfig({
