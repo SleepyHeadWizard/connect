@@ -196,13 +196,6 @@ const Home = () => {
                   <FaUniversity className="inline mr-2 mb-1 text-purple-500" />Lovely Professional University, Phagwara, Punjab.
                 </strong>
               </p>
-              <p className="text-slate-700 dark:text-slate-300 text-base sm:text-lg">
-                The work was carried out under the insightful supervision and guidance of
-                <strong className="block mt-1 text-lg">
-                  <FaUserTie className="inline mr-2 mb-1 text-blue-500" />{SUPERVISOR_NAME}
-                </strong>
-                , {SUPERVISOR_DESIGNATION}.
-              </p>
               <p className="text-slate-600 dark:text-slate-400 text-sm mt-4">
                 We extend our sincere gratitude to LPU for providing the platform and resources for this study, and to all participants who contributed their valuable time and insights.
               </p>
